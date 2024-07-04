@@ -1,0 +1,10 @@
+<div class="center-box">
+  <h2>Counter</h2>
+  <div class="counter-section">
+    <h1><%= @counter.value %></h1>
+    <div class="button-group">
+      <%= button_to '+', increment_path, method: :post, class: 'increment-button' %>
+      <%= button_to '-', decrement_path, method: :post, class: 'decrement-button' %>
+    </div>
+  </div>
+</div>
